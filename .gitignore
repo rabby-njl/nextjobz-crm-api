@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Node
+node_modules/
+
+# Env / secrets — never commit these
+.env
+.env.local
+
+# Editor
+*.swp
+Thumbs.db

@@ -1,0 +1,15 @@
+{
+  "name": "nextjobz-crm-api",
+  "version": "1.0.0",
+  "description": "Backend API for the Nextjobz CRM. Pulls live data from Metabase (SQL Server) for mapped entities, serves seed data for the rest.",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
