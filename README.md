@@ -31,7 +31,8 @@ DELETE /api/<entity>/:id      → remove (non-live entities only)
 **Live from Metabase:** `employers`, `leads`, `contacts`, `orders` (job posts),
 `queries` (ContactUs), `jobseekerSupports` (job-seeker profiles), `collections`
 (payment transactions), `events` (job-fair companies), `requirements`
-(organic job requirements).
+(organic job requirements), `trainings` (LearningLab training courses +
+corporate training requests).
 
 **No live mapping yet (start empty):** `deals`, `visits`, `campaigns`,
 `proposals`, `payrollClients`, `vendors`, `targets`, `dailyReports`.
