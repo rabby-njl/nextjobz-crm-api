@@ -19,11 +19,12 @@ DELETE /api/<entity>/:id       → remove (seed entities only)
 ```
 
 **Live from Metabase:** `employers`, `leads`, `contacts`, `orders` (job posts),
-`queries` (ContactUs), `jobseekerSupports` (job-seeker profiles).
+`queries` (ContactUs), `jobseekerSupports` (job-seeker profiles), `collections`
+(payment transactions), `events` (job-fair companies), `requirements`
+(organic job requirements).
 
-**Seeded (no live mapping yet):** `deals`, `visits`, `collections`, `campaigns`,
-`requirements`, `proposals`, `payrollClients`, `vendors`, `events`, `targets`,
-`dailyReports`.
+**Seeded (no live mapping yet):** `deals`, `visits`, `campaigns`, `proposals`,
+`payrollClients`, `vendors`, `targets`, `dailyReports`.
 
 Live entities are **read-only** — writes are acknowledged but not persisted to the
 source system (the CRM is a coordination layer, not the system of record).
